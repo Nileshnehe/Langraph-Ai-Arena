@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx server.js"
+    "dev": "tsx server.js",
+    "test:model": "tsx src/tests/test.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +18,10 @@
     "typescript": "^6.0.2"
   },
   "dependencies": {
+    "@langchain/cohere": "^1.0.4",
     "@langchain/core": "^1.1.39",
     "@langchain/google": "^0.1.10",
+    "@langchain/mistralai": "^1.0.7",
     "dotenv": "^17.4.0",
     "express": "^5.2.1"
   }
