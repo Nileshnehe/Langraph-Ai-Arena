@@ -1,4 +1,4 @@
-import { geminiModel } from "../services/models.js";
+import { geminiModel } from "../ai/models.js";
 
 async function testModel() {
     const res = await geminiModel.invoke("What is capital of India");
